@@ -1,0 +1,24 @@
+<script id="tmpl-nf-field-nfMainAddress" type="text/template">
+	<input id="autocomplete" name="nf-field-{{{ data.id }}}" class="{{{ data.renderClasses() }}} nf-element" onFocus="geolocate()" type="text" value="{{{ data.value }}}" {{{ data.renderPlaceholder() }}} {{{ data.maybeDisabled() }}} {{{ data.maybeDisableAutocomplete() }}} {{{ data.maybeInputLimit() }}}>
+</script>
+
+<script id="tmpl-nf-field-nfAddress" type="text/template">
+	<input id="street_number" name="nf-field-{{{ data.id }}}"  class="{{{ data.renderClasses() }}} nf-element" type="text" value="{{{ data.value }}}" {{{ data.renderPlaceholder() }}}>
+</script>
+
+<script id="tmpl-nf-field-nfRoute" type="text/template">
+	<input id="route" name="nf-field-{{{ data.id }}}"  class="{{{ data.renderClasses() }}} nf-element" type="text" value="{{{ data.value }}}" {{{ data.renderPlaceholder() }}}>
+</script>
+
+<script id="tmpl-nf-field-nfLocality" type="text/template">
+	<input id="locality" name="nf-field-{{{ data.id }}}"  class="{{{ data.renderClasses() }}} nf-element" type="text" value="{{{ data.value }}}" {{{ data.renderPlaceholder() }}}>
+</script>
+
+
+<script id="tmpl-nf-field-nfState" type="text/template">
+	<input id="administrative_area_level_1" name="nf-field-{{{ data.id }}}"  class="{{{ data.renderClasses() }}} nf-element" type="text" value="{{{ data.value }}}" {{{ data.renderPlaceholder() }}}>
+</script>
+
+<script id="tmpl-nf-field-nfZipCode" type="text/template">
+	<input id="postal_code" name="nf-field-{{{ data.id }}}"  class="{{{ data.renderClasses() }}} nf-element" type="text" value="{{{ data.value }}}" {{{ data.renderPlaceholder() }}}>
+</script>
